@@ -1,0 +1,130 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+.contain{
+    background: url('img/rock.jpg') no-repeat;
+    background-size: cover;
+    margin: auto;   
+}
+.left h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0;
+}
+.right p{
+    font-size: 20px;
+    
+}
+.right span{
+    font-size: 35px;
+    transform: translateY(10px);
+    margin-left: 5px;
+}
+.left p{
+    margin-top: 0;
+    transform: translateY(-8px);
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main .center{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.center form, button{
+    opacity: .8;
+}
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    width: 290px;
+    height: 32px;
+    text-indent: 35px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.center button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    height: 35px;
+    width: 140px;
+    transform: translateX(-5px);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
+.world{
+    padding-left: 140px;
+    padding-bottom: 50px;
+}
+.world .join1{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    height: 45px;
+    width: 140px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.world h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.premium{
+    font-size: 22px;
+}
+.rotate{
+    padding-bottom: 20px;
+    transform: rotate(-90deg);
+    transform-origin: 40px 40px;
+}
+
+.section1{
+    margin-top: 80px;
+    border-left: 2px solid white;
+    margin-left: 12px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.section1 h2{
+    border-bottom: 1px solid #C9DA18;
+    width: max-content;
+}
+.join2{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.max_why{
+    width: 450px;
+    margin-left: 80px;
+}
+.max_why h4{
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration-color: none!important;
+    margin-top: 180px;
+    margin-bottom: 0;
+}
+.max_why p{
+    line-height: 2;
+    margin-bottom: 0;
+}
